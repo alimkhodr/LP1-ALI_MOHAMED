@@ -20,4 +20,4 @@
     </tr>
 </table>
 
-<h4>1)TrocaVariaveis</h4>
+[exerc_resp_alg_mar2007.pdf](https://github.com/alimkhodr/LP1-ALI_MOHAMED/files/12430977/exerc_resp_alg_mar2007.pdf)

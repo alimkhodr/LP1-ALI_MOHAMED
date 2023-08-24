@@ -84,7 +84,6 @@ d)
     <tr>
         <th>A</th>
         <th>B</th>
-        <th>C</th>
     </tr>
     <tr>
         <td>10</td>

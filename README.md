@@ -30,11 +30,11 @@ a)
         <th>B</th>
     </tr>
     <tr>
-        <td></td>
+        <td>10</td>
         <td>20</td>
     </tr>
     <tr>
-        <td>20</td>
+        <td>10</td>
         <td>5</td>
     </tr>
 </table>
@@ -46,14 +46,19 @@ b)
         <th>C</th>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>30</td>
+        <td>20</td>
         <td>50</td>
     </tr>
     <tr>
-        <td></td>
-        <td>5</td>
+        <td>30</td>
+        <td>10</td>
         <td>50</td>
+    </tr>
+        <tr>
+        <td>30</td>
+        <td>10</td>
+        <td>40</td>
     </tr>
 </table>
 c)
@@ -61,14 +66,17 @@ c)
     <tr>
         <th>A</th>
         <th>B</th>
+        <th>C</th>
     </tr>
     <tr>
         <td>10</td>
         <td>20</td>
+        <td>10</td>
     </tr>
     <tr>
-        <td>20</td>
-        <td>5</td>
+        <td>10</td>
+        <td>10</td>
+        <td>10</td>
     </tr>
 </table>
 d)
@@ -76,14 +84,24 @@ d)
     <tr>
         <th>A</th>
         <th>B</th>
+        <th>C</th>
     </tr>
     <tr>
         <td>10</td>
-        <td>20</td>
+        <td>11</td>
     </tr>
     <tr>
-        <td>20</td>
-        <td>5</td>
+        <td>12</td>
+        <td>13</td>
+    </tr>
+        <tr>
+        <td>12</td>
+        <td>13</td>
+    </tr>
+        </tr>
+        <tr>
+        <td>14</td>
+        <td>13</td>
     </tr>
 </table>
 e)
@@ -91,29 +109,35 @@ e)
     <tr>
         <th>A</th>
         <th>B</th>
+        <th>C</th>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>5</td>
+        <td>15</td>
     </tr>
     <tr>
         <td>10</td>
         <td>20</td>
-    </tr>
-    <tr>
-        <td>20</td>
-        <td>5</td>
+        <td>10</td>
     </tr>
 </table>
 f)
 <table>
     <tr>
-        <th>A</th>
-        <th>B</th>
+        <td>X</td>
+        <td>Y</td>
+        <td>Z</td>
     </tr>
     <tr>
-        <td>10</td>
-        <td>20</td>
+        <td>1</td>
+        <td>2</td>
+        <td>1</td>
     </tr>
     <tr>
-        <td>20</td>
         <td>5</td>
+        <td>6</td>
+        <td>1</td>
     </tr>
 </table>
 <hr>

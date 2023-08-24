@@ -19,3 +19,41 @@
         <td>10</td>
     </tr>
 </table>
+
+<h4>1)TrocaVariaveis</h4>
+<div class="display: flex; flex-direction: row; flex-wrap: wrap;">
+<table>
+    <tr>
+        <th>A</th>
+        <th>B</th>
+        <th>Temp</th>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>20</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>10</td>
+        <td>10</td>
+    </tr>
+</table>
+    <table>
+    <tr>
+        <th>A</th>
+        <th>B</th>
+        <th>Temp</th>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>20</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>10</td>
+        <td>10</td>
+    </tr>
+</table>
+</div>

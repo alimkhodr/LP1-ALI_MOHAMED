@@ -11,7 +11,7 @@
     <tr>
         <td>10</td>
         <td>20</td>
-        <td>VAZIO</td>
+        <td></td>
     </tr>
     <tr>
         <td>20</td>

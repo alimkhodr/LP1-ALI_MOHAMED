@@ -1,6 +1,5 @@
-<h1>Linguagem de Programação 1 - Ali Mohamed</h1>
-<h3>Teste de mesa de exercícios da matéria de linguagem de programação 1 da Fatec SJC</h3>
-<br>
+<h2>Linguagem de Programação 1 - Ali Mohamed</h2>
+<h2>Teste de mesa de exercícios da matéria de linguagem de programação 1 da Fatec SJC</h2>
 <h4>1)TrocaVariaveis</h4>
 <table>
     <tr>

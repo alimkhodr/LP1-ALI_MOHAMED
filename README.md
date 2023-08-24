@@ -23,21 +23,97 @@ nas variáveis.
     </tr>
 </table>
 2) Analise os algoritmos abaixo e diga o que será impresso na tela ao serem executados:
+a)
 <table>
     <tr>
         <th>A</th>
         <th>B</th>
-        <th>Temp</th>
     </tr>
     <tr>
-        <td>10</td>
-        <td>20</td>
         <td></td>
+        <td>20</td>
     </tr>
     <tr>
         <td>20</td>
+        <td>5</td>
+    </tr>
+</table>
+b)
+<table>
+    <tr>
+        <th>A</th>
+        <th>B</th>
+        <th>C</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>5</td>
+        <td>50</td>
+    </tr>
+</table>
+c)
+<table>
+    <tr>
+        <th>A</th>
+        <th>B</th>
+    </tr>
+    <tr>
         <td>10</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>5</td>
+    </tr>
+</table>
+d)
+<table>
+    <tr>
+        <th>A</th>
+        <th>B</th>
+    </tr>
+    <tr>
         <td>10</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>5</td>
+    </tr>
+</table>
+e)
+<table>
+    <tr>
+        <th>A</th>
+        <th>B</th>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>5</td>
+    </tr>
+</table>
+f)
+<table>
+    <tr>
+        <th>A</th>
+        <th>B</th>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>5</td>
     </tr>
 </table>
 <hr>

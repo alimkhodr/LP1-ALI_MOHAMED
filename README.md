@@ -21,7 +21,7 @@
 </table>
 
 <h4>1)TrocaVariaveis</h4>
-<div Class="display: flex; flex-direction: row; flex-wrap: wrap;">
+<div Style="display: flex; flex-direction: row; flex-wrap: wrap;">
 <table>
     <tr>
         <th>A</th>

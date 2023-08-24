@@ -20,5 +20,5 @@ Teste de mesa de exercícios da matéria de linguagem de programação 1 da Fate
     </tr>
 </table>
 <hr>
-<h2>1)Apostia</h2>
+<h3>1)Apostia</h3>
 [exerc_resp_alg_mar2007.pdf](https://github.com/alimkhodr/LP1-ALI_MOHAMED/files/12430977/exerc_resp_alg_mar2007.pdf)

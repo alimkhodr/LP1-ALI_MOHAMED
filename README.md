@@ -1,24 +1,21 @@
 <h1>Linguagem de Programação 1 - Ali Mohamed</h1>
 <h3>Teste de mesa de exercícios da matéria de linguagem de programação 1 da Fatec SJC</h3>
+
+<h4>1)TrocaVariaveis</h4>
 <table>
     <tr>
-        <th>Nome</th>
-        <th>Idade</th>
-        <th>País</th>
+        <th>A</th>
+        <th>B</th>
+        <th>Temp</th>
     </tr>
     <tr>
-        <td>João</td>
-        <td>25</td>
-        <td>Brasil</td>
+        <td>10</td>
+        <td>20</td>
+        <td>VAZIO</td>
     </tr>
     <tr>
-        <td>Maria</td>
-        <td>30</td>
-        <td>Portugal</td>
-    </tr>
-    <tr>
-        <td>Carlos</td>
-        <td>22</td>
-        <td>Espanha</td>
+        <td>20</td>
+        <td>10</td>
+        <td>10</td>
     </tr>
 </table>

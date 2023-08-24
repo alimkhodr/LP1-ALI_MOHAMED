@@ -1,6 +1,7 @@
 <h1>Linguagem de Programação 1 - Ali Mohamed</h1>
 Teste de mesa de exercícios da matéria de linguagem de programação 1 da Fatec SJC
-<h4>1)TrocaVariaveis</h4>
+<hr>
+<h2>1)TrocaVariaveis</h2>
 <table>
     <tr>
         <th>A</th>
@@ -19,5 +20,5 @@ Teste de mesa de exercícios da matéria de linguagem de programação 1 da Fate
     </tr>
 </table>
 <hr>
-<h4>1)Apostia</h4>
+<h2>1)Apostia</h2>
 [exerc_resp_alg_mar2007.pdf](https://github.com/alimkhodr/LP1-ALI_MOHAMED/files/12430977/exerc_resp_alg_mar2007.pdf)

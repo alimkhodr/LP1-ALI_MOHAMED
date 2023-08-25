@@ -139,6 +139,25 @@ f)
         <td>1</td>
     </tr>
 </table>
+5) Escreva um algoritmo para ler um valor (do teclado) e escrever (na tela) o seu antecessor.
+<table>
+    <tr>
+        <td>A</td>
+        <td>B</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>2</td>
+    </tr>
+        <tr>
+        <td>4</td>
+        <td>3</td>
+    </tr>
+</table>
 <hr>
 <h3>Apostia</h3>
 [exerc_resp_alg_mar2007.pdf](https://github.com/alimkhodr/LP1-ALI_MOHAMED/files/12430977/exerc_resp_alg_mar2007.pdf)

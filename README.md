@@ -5,6 +5,7 @@ Teste de mesa de exercícios da matéria de linguagem de programação 1 da Fate
 A seguir (utilizando apenas atribuições entre variáveis) troque os seus conteúdos fazendo com que o
 valor que está em A passe para B e vice-versa. Ao final, escrever os valores que ficaram armazenados
 nas variáveis.
+<div style="aling-itens:center;">
 <table>
     <tr>
         <th>A</th>
@@ -158,6 +159,7 @@ f)
         <td>3</td>
     </tr>
 </table>
+    </div>
 <hr>
 <h3>Apostia</h3>
 [exerc_resp_alg_mar2007.pdf](https://github.com/alimkhodr/LP1-ALI_MOHAMED/files/12430977/exerc_resp_alg_mar2007.pdf)

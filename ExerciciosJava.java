@@ -9,6 +9,7 @@ public class ExerciciosJava {
             System.out.println("Escolha um exercício para executar:");
             System.out.println("1. Troca de Variáveis");
             System.out.println("2. Antecessor do valor digitado");
+            System.out.println("3. Area do retangulo");
             System.out.println("0. Sair");
 
             int choice = scanner.nextInt();
@@ -19,6 +20,9 @@ public class ExerciciosJava {
                     break;
                 case 2:
                     Antecessor(scanner);
+                    break;
+                case 3:
+                    AreaRetangulo(scanner);
                     break;
                 case 0:
                     System.out.println("Saindo do programa.");
@@ -48,6 +52,22 @@ public class ExerciciosJava {
             int valor = scanner.nextInt();
             int antecessor = valor - 1;
             System.out.println("Antecessor de " + valor + " é " + antecessor);
+        } catch (InputMismatchException e) {
+            System.out.println("Entrada inválida. Certifique-se de inserir um valor inteiro.");
+            scanner.next();
+        }
+    }
+
+    public static void AreaRetangulo(Scanner scanner) {
+        try {
+            System.out.println("Valor da base:");
+            int B = scanner.nextInt();
+
+            System.out.println("Valor da altura:");
+            int H = scanner.nextInt();
+
+            int area = B * H;
+            System.out.println("Valor da área: " + area);
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Certifique-se de inserir um valor inteiro.");
             scanner.next();

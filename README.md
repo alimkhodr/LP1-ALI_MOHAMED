@@ -161,6 +161,7 @@ f)
 
 6) Escreva um algoritmo para ler as dimensões de um retângulo (base e altura), calcular e escrever a 
 área do retângulo.
+<table>
     <tr>
         <td>Altura</td>
         <td>Base</td>
@@ -181,7 +182,7 @@ f)
         <td>2</td>
         <td>4</td>
     </tr>
-
+</table>
 <hr>
 <h3>Apostia</h3>
 [exerc_resp_alg_mar2007.pdf](https://github.com/alimkhodr/LP1-ALI_MOHAMED/files/12430977/exerc_resp_alg_mar2007.pdf)

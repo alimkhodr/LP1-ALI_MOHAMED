@@ -153,11 +153,35 @@ f)
         <td>3</td>
         <td>2</td>
     </tr>
-        <tr>
+    <tr>
         <td>4</td>
         <td>3</td>
     </tr>
 </table>
+
+6) Escreva um algoritmo para ler as dimensões de um retângulo (base e altura), calcular e escrever a 
+área do retângulo.
+    <tr>
+        <td>Altura</td>
+        <td>Base</td>
+        <td>Area</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>10</td>
+        <td>100</td>
+    </tr>
+        <tr>
+        <td>5</td>
+        <td>5</td>
+        <td>25</td>
+    </tr>
+            <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>4</td>
+    </tr>
+
 <hr>
 <h3>Apostia</h3>
 [exerc_resp_alg_mar2007.pdf](https://github.com/alimkhodr/LP1-ALI_MOHAMED/files/12430977/exerc_resp_alg_mar2007.pdf)

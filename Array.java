@@ -15,16 +15,17 @@ public class Array {
             numeros[i] = scanner.nextInt();
             i++;
         }
-
+        
+        //achar a média
         int soma = 0;
         for (int n : numeros) {
             soma += n;
         }
-
         int media;
         media = soma / 2;
         System.out.println("A média é: "+media);
 
+        //achar o maior
         int maior = numeros[0];
         for (int num : numeros) {
             if (num > maior) {
@@ -32,7 +33,6 @@ public class Array {
             }
         }
         System.out.println("O maior número é: " + maior);
-
 
         scanner.close();
     }

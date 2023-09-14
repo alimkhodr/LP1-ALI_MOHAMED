@@ -78,13 +78,21 @@ public class Array {
                 i++;
                 position++;
             }
+            double maior = prod[0];
+            for (double num : prod) {
+                if (num > maior) {
+                    maior = num;
+                }
+            }
+            System.out.println("O maior preço é: " + maior);
+
             double soma = 0;
             for (double n : prod) {
                 soma += n;
             }
             double media;
             media = soma / 15;
-            System.out.println("Média aritmética: " + media);
+            System.out.println("A média aritmética é: " + media);
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Certifique-se de inserir um valor inteiro.");
             scanner.next();

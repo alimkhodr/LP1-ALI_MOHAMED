@@ -329,9 +329,9 @@ public class Ex {
 
     public static void Ex83(Scanner scanner) {
         try {
-            int V[] = new int[20];
-            int i;
             System.out.printf("\nExercício 83\n");
+            int i;
+            int V[] = new int[20];
             for (i = 0; i < 20; i++) {
                 System.out.printf("Digite o %dº numero de 20: ", i + 1);
                 V[i] = scanner.nextInt();
@@ -409,7 +409,8 @@ public class Ex {
             System.out.printf("Menor temperatura do ano: %d°C\n", menor);
             System.out.printf("Maior temperatura do ano: %d°C\n", maior);
             System.out.printf("Temperatura média anual : %d°C\n", media);
-            System.out.printf(" O número de dias no ano em que a temperatura foi inferior a média anual : %d\n", inferior);
+            System.out.printf(" O número de dias no ano em que a temperatura foi inferior a média anual : %d\n",
+                    inferior);
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Certifique-se de inserir um valor inteiro.");
             scanner.next();
@@ -418,6 +419,26 @@ public class Ex {
 
     public static void Ex86(Scanner scanner) {
         try {
+            System.out.printf("\nExercício 86\n");
+            int i;
+            int V[] = new int[10];
+            for (i = 0; i < 10; i++) {
+                System.out.printf("Digite o %dº numero de 10: ", i + 1);
+                V[i] = scanner.nextInt();
+            }
+            for (i = 0; i < 9; i++) {
+                for (int j = 0; j < 9 - i; j++) {
+                    if (V[j] > V[j + 1]) {
+                        int temp = V[j];
+                        V[j] = V[j + 1];
+                        V[j + 1] = temp;
+                    }
+                }
+            }
+            System.out.println("Vetor ordenado em ordem crescente:");
+            for (i = 0; i < 10; i++) {
+                System.out.print(V[i] + " ");
+            }
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Certifique-se de inserir um valor inteiro.");
             scanner.next();
@@ -426,6 +447,39 @@ public class Ex {
 
     public static void Ex87(Scanner scanner) {
         try {
+            System.out.printf("\nExercício 87\n");
+            int i;
+            int V[] = new int[11];
+            for (i = 0; i < 10; i++) {
+                System.out.printf("Digite o %dº numero de 10: ", i + 1);
+                V[i] = scanner.nextInt();
+            }
+            for (i = 0; i < 9; i++) {
+                for (int j = 0; j < 9 - i; j++) {
+                    if (V[j] > V[j + 1]) {
+                        int temp = V[j];
+                        V[j] = V[j + 1];
+                        V[j + 1] = temp;
+                    }
+                }
+            }
+            int N;
+            System.out.printf("Digite outro numero: ");
+            N = scanner.nextInt();
+
+            int posicaoInsercao = 0;
+            while (posicaoInsercao < 10 && N > V[posicaoInsercao]) {
+                posicaoInsercao++;
+            }
+            for (i = 10; i > posicaoInsercao; i--) {
+                V[i] = V[i - 1];
+            }
+            V[posicaoInsercao] = N;
+
+            System.out.printf("Vetor ordenado em ordem crescente com outro numero: ");
+            for (i = 0; i < 11; i++) {
+                System.out.printf("V[%d] ", V[i]);
+            }
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Certifique-se de inserir um valor inteiro.");
             scanner.next();
@@ -434,6 +488,41 @@ public class Ex {
 
     public static void Ex88(Scanner scanner) {
         try {
+            System.out.println("\nExercício 88");
+            int V[] = new int[20];
+            int numero, i;
+            for (i = 0; i < 20; i++) {
+                System.out.printf("Digite o %dº numero de 20: ", i + 1);
+                V[i] = scanner.nextInt();
+            }
+
+            System.out.print("Digite um número adicional: ");
+            numero = scanner.nextInt();
+
+            boolean encontrado = false;
+            for (i = 0; i < 20; i++) {
+                if (V[i] == numero) {
+                    encontrado = true;
+                    break;
+                }
+            }
+
+            if (encontrado) {
+                int V2[] = new int[19];
+                int novoIndice = 0;
+                for (i = 0; i < 20; i++) {
+                    if (V[i] != numero) {
+                        V2[novoIndice] = V[i];
+                        novoIndice++;
+                    }
+                }
+                System.out.printf("Novo vetor sem o número : ");
+                for (i = 0; i < 19; i++) {
+                    System.out.printf("V[%d] ", V2[i]);
+                }
+            } else {
+                System.out.println("O número " + numero + " não existe no vetor.");
+            }
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Certifique-se de inserir um valor inteiro.");
             scanner.next();
@@ -442,6 +531,26 @@ public class Ex {
 
     public static void Ex89(Scanner scanner) {
         try {
+            System.out.println("\nExercício 89");
+            int V1[] = new int[15];
+            int V2[] = new int[15];
+            int i;
+            for (i = 0; i < 15; i++) {
+                System.out.printf("Digite o %dº numero de 15: ", i + 1);
+                V1[i] = scanner.nextInt();
+            }
+            for (i = 0; i < 15; i++) {
+                System.out.printf("Digite o %dº numero de 15: ", i + 1);
+                V2[i] = scanner.nextInt();
+            }
+            int qtd = 0;
+            for (i = 0; i < 15; i++) {
+                if (V1[i] == V2[i]) {
+                    qtd++;
+                }
+            }
+            System.out.printf("Quantidade de vezes que V1 e V2 possuem os mesmos números e nas mesmas posições: %d",
+                    qtd);
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Certifique-se de inserir um valor inteiro.");
             scanner.next();
@@ -450,6 +559,25 @@ public class Ex {
 
     public static void Ex90(Scanner scanner) {
         try {
+            System.out.println("\nExercício 90");
+            int V[] = new int[30];
+            int i;
+            for (i = 0; i < 30; i++) {
+                System.out.printf("Digite o %dº numero de 30: ", i + 1);
+                V[i] = scanner.nextInt();
+            }
+
+            int N;
+            System.out.print("Digite um número adicional: ");
+            N = scanner.nextInt();
+
+            int qtd = 0;
+            for (i = 0; i < 30; i++) {
+                if (N == V[i]) {
+                    qtd++;
+                }
+            }
+            System.out.printf("Quantidade de vezes que o %d aparece no vetor: %d", N, qtd);
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Certifique-se de inserir um valor inteiro.");
             scanner.next();
@@ -458,6 +586,22 @@ public class Ex {
 
     public static void Ex91(Scanner scanner) {
         try {
+            System.out.println("\nExercício 91");
+            int V[] = new int[5];
+            int i;
+            for (i = 0; i < 5; i++) {
+                System.out.printf("Digite o %dº numero de 50: ", i + 1);
+                V[i] = scanner.nextInt();
+            }
+            int repetidos = 0;
+            for (i = 0; i < 5; i++) {
+                for (int j = i + 1; j < 5; j++) {
+                    if (V[i] == V[j]) {
+                        repetidos++;
+                    }
+                }
+            }
+            System.out.printf("Quantidade de numeros repetidos: %d", repetidos);
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Certifique-se de inserir um valor inteiro.");
             scanner.next();

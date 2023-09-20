@@ -25,6 +25,7 @@ nas variáveis.
 </table>
 
 2) Analise os algoritmos abaixo e diga o que será impresso na tela ao serem executados:
+
 a)
 <table>
     <tr>

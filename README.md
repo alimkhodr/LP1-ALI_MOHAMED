@@ -192,9 +192,14 @@ calcular e escrever quantas vezes esse número aparece no vetor.
         <td>N</td>
         <td>qtd</td>
     </tr>
+        <tr>
+        <td>Null</td>
+        <td>Null</td>
+        <td>0</td>
+    </tr>
     <tr>
         <td>1,2,3...30</td>
-        <td>0</td>
+        <td>Null</td>
         <td>0</td>
     </tr>
         <tr>

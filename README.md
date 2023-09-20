@@ -139,7 +139,7 @@ f)
         <td>1</td>
     </tr>
 </table>
-5) Escreva um algoritmo para ler um valor (do teclado) e escrever (na tela) o seu antecessor.
+5) Escreva um algoritmo para ler um valor (do teclado) e escrever (na tela) o seu antecessor. 
 <table>
     <tr>
         <td>A</td>

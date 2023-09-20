@@ -25,7 +25,6 @@ nas variáveis.
 </table>
 
 2) Analise os algoritmos abaixo e diga o que será impresso na tela ao serem executados:
-3) 
 a)
 <table>
     <tr>
@@ -41,7 +40,6 @@ a)
         <td>5</td>
     </tr>
 </table>
-
 b)
 <table>
     <tr>
@@ -65,7 +63,6 @@ b)
         <td>40</td>
     </tr>
 </table>
-
 c)
 <table>
     <tr>
@@ -84,7 +81,6 @@ c)
         <td>10</td>
     </tr>
 </table>
-
 d)
 <table>
     <tr>
@@ -109,7 +105,6 @@ d)
         <td>13</td>
     </tr>
 </table>
-
 e)
 <table>
     <tr>

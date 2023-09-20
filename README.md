@@ -183,6 +183,22 @@ f)
         <td>4</td>
     </tr>
 </table>
+
+90) Faça um algoritmo para ler um vetor de 30 números. Após isto, ler mais um número qualquer, 
+calcular e escrever quantas vezes esse número aparece no vetor.
+<table>
+    <tr>
+        <td>V</td>
+        <td>N</td>
+        <td>qtd</td>
+    </tr>
+    <tr>
+        <td>1,2,3...30</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+</table>
+
 <hr>
 <h3>Apostia</h3>
 [exerc_resp_alg_mar2007.pdf](https://github.com/alimkhodr/LP1-ALI_MOHAMED/files/12430977/exerc_resp_alg_mar2007.pdf)

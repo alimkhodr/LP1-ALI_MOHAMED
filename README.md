@@ -15,7 +15,7 @@ nas variáveis.
     <tr>
         <td>10</td>
         <td>20</td>
-        <td></td>
+        <td>Null</td>
     </tr>
     <tr>
         <td>20</td>

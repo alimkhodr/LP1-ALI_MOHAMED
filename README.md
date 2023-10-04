@@ -357,6 +357,6 @@ calcular e escrever quantas vezes esse número aparece no vetor.
         <td>1</td>
     </tr>
 </table>
-
+<hr>
 <h3>Apostila</h3>
 [exerc_resp_alg_mar2007.pdf](https://github.com/alimkhodr/LP1-ALI_MOHAMED/files/12430977/exerc_resp_alg_mar2007.pdf)

@@ -359,7 +359,7 @@ calcular e escrever quantas vezes esse número aparece no vetor.
 </table>
 
 91) Faça um algoritmo para ler 50 números e armazenar em um vetor VET, verificar e escrever se 
-existem números repetidos no vetor VET e em que posições se encontram. 
+existem números repetidos no vetor VET e em que posições se encontram. <br>
 ![image](https://github.com/alimkhodr/LP1-ALI_MOHAMED/assets/85517447/4c7c2dc8-c934-4fb6-9e6b-90c1cfa260bc)
 <hr>
 <h3>Apostila</h3>

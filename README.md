@@ -189,7 +189,8 @@ f)
 </table>
 
 77)
-![image](https://github.com/alimkhodr/LP1-ALI_MOHAMED/assets/85517447/78cea0ff-2b4c-49da-b771-934df34525c5)
+![image](https://github.com/alimkhodr/LP1-ALI_MOHAMED/assets/85517447/b5f9de44-959e-46b0-be2d-f017d7922a33)
+
 
 
 78) Escreva um algoritmo que permita a leitura dos nomes de 10 pessoas e armaze os nomes lidos em 

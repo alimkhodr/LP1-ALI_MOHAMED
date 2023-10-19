@@ -234,169 +234,94 @@ vetor sem esse número. (Considere que não haverão números repetidos no vetor
 quantidade de vezes que V1 e V2 possuem os mesmos números e nas mesmas posições. 
 <table>
     <tr>
-        <td>V</td>
-        <td>N</td>
+        <td>V1</td>
+        <td>V2</td>
         <td>qtd</td>
     </tr>
         <tr>
         <td>Null...Null</td>
-        <td>Null</td>
+        <td>Null...Null</td>
         <td>0</td>
     </tr>
     <tr>
         <td>1,Null...Null</td>
-        <td>Null</td>
+        <td>2,Null...Null</td>
         <td>0</td>
     </tr>
-    <tr>
+        <tr>
         <td>1,2,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,Null...Null</td>
-        <td>Null</td>
+        <td>3,2,Null...Null</td>
         <td>0</td>
     </tr>
         <tr>
-        <td>1,2,3,4,Null...Null</td>
-        <td>Null</td>
+        <td>1,2,4,Null...Null</td>
+        <td>2,2,4,Null...Null</td>
         <td>0</td>
     </tr>
         <tr>
-        <td>1,2,3,4,5,Null...Null</td>
-        <td>Null</td>
+        <td>1,2,4,5,Null...Null</td>
+        <td>2,2,4,5,Null...Null</td>
         <td>0</td>
     </tr>
         <tr>
-        <td>1,2,3,4,5,6,Null...Null</td>
-        <td>Null</td>
+        <td>1,2,4,5,7,Null...Null</td>
+        <td>2,2,4,5,7,Null...Null</td>
         <td>0</td>
     </tr>
         <tr>
-        <td>1,2,3,4,5,6,7,Null...Null</td>
-        <td>Null</td>
+        <td>1,2,4,5,7,9,Null...Null</td>
+        <td>2,2,4,5,7,8,Null...Null</td>
         <td>0</td>
     </tr>
         <tr>
-        <td>1,2,3,4,5,6,7,8,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,Null...Null</td>
-        <td>Null</td>
+        <td>1,2,4,5,7,9,10,Null...Null</td>
+        <td>2,2,4,5,7,8,11,Null...Null</td>
         <td>0</td>
     </tr>
         <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,Null...Null</td>
-        <td>Null</td>
+        <td>1,2,4,5,7,9,10,12,Null...Null</td>
+        <td>2,2,4,5,7,8,11,12,Null...Null</td>
         <td>0</td>
     </tr>
         <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,Null...Null</td>
-        <td>Null</td>
+        <td>1,2,4,5,7,9,10,12,45,Null...Null</td>
+        <td>2,2,4,5,7,8,11,12,35,Null...Null</td>
         <td>0</td>
     </tr>
         <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,Null...Null</td>
-        <td>Null</td>
+        <td>1,2,4,5,7,9,10,12,45,76,Null...Null</td>
+        <td>2,2,4,5,7,8,11,12,35,36,Null...Null</td>
         <td>0</td>
     </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,Null...Null</td>
-        <td>Null</td>
+        <tr>
+        <td>1,2,4,5,7,9,10,12,45,76,43,Null...Null</td>
+        <td>2,2,4,5,7,8,11,12,35,36,44,Null...Null</td>
         <td>0</td>
     </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,Null...Null</td>
-        <td>Null</td>
+        <tr>
+        <td>1,2,4,5,7,9,10,12,45,76,43,90,Null...Null</td>
+        <td>2,2,4,5,7,8,11,12,35,36,44,90,Null...Null</td>
         <td>0</td>
     </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,Null...Null</td>
-        <td>Null</td>
+        <tr>
+        <td>1,2,4,5,7,9,10,12,45,76,43,90,4,Null,Null</td>
+        <td>2,2,4,5,7,8,11,12,35,36,44,90,3,Null,Null</td>
         <td>0</td>
     </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,Null...Null</td>
-        <td>Null</td>
+        <tr>
+        <td>1,2,4,5,7,9,10,12,45,76,43,90,4,87,Null</td>
+        <td>2,2,4,5,7,8,11,12,35,36,44,90,3,38,Null</td>
         <td>0</td>
     </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,Null...Null</td>
-        <td>Null</td>
+            <tr>
+        <td>1,2,4,5,7,9,10,12,45,76,43,90,4,87,33</td>
+        <td>2,2,4,5,7,8,11,12,35,36,44,90,3,38,33</td>
         <td>0</td>
     </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,Null...Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,Null,Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,29,Null</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,29,30</td>
-        <td>Null</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,29,30</td>
-        <td>2</td>
-        <td>1</td>
+                <tr>
+        <td>1,2,4,5,7,9,10,12,45,76,43,90,4,87,33</td>
+        <td>2,2,4,5,7,8,11,12,35,36,44,90,3,38,33</td>
+        <td>7</td>
     </tr>
 </table>
 

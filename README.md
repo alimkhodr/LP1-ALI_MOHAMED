@@ -209,6 +209,8 @@ turma e o resultado da contagem.
 
 80) Ler um vetor Q de 20 posições (aceitar somente números positivos). Escrever a seguir o valor do 
 maior elemento de Q e a respectiva posição que ele ocupa no vetor.
+![image](https://github.com/alimkhodr/LP1-ALI_MOHAMED/assets/85517447/fd54de9b-e2f2-42f2-91ac-8b7804336d6f)
+
 
 81) O mesmo exercício anterior, mas agora deve escrever o menor elemento do vetor e a respectiva 
 posição dele nesse vetor.

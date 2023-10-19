@@ -220,25 +220,27 @@ posição dele nesse vetor.
 82) Ler um vetor A de 10 números. Após, ler mais um número e guardar em uma variável X. 
 Armazenar em um vetor M o resultado de cada elemento de A multiplicado pelo valor X. Logo após, 
 imprimir o vetor M.
+![image](https://github.com/alimkhodr/LP1-ALI_MOHAMED/assets/85517447/7042631e-c3bb-4671-8574-78792c0c2766)
 
-83) Faça um algoritmo para ler 20 números e armazenar em um vetor. Após a leitura total dos 20 
+
+84) Faça um algoritmo para ler 20 números e armazenar em um vetor. Após a leitura total dos 20 
 números, o algoritmo deve escrever esses 20 números lidos na ordem inversa.
 
-84) Faça um algoritmo para ler um valor N qualquer (que será o tamanho dos vetores). Após, ler dois 
+85) Faça um algoritmo para ler um valor N qualquer (que será o tamanho dos vetores). Após, ler dois 
 vetores A e B (de tamanho N cada um) e depois armazenar em um terceiro vetor Soma a soma dos 
 elementos do vetor A com os do vetor B (respeitando as mesmas posições) e escrever o vetor Soma.
 
-85) Faça um algoritmo para ler e armazenar em um vetor a temperatura média de todos os dias do ano. 
+86) Faça um algoritmo para ler e armazenar em um vetor a temperatura média de todos os dias do ano. 
 Calcular e escrever: 
 
-86) Faça um algoritmo para ler 10 números e armazenar em um vetor. Após isto, o algoritmo deve 
+87) Faça um algoritmo para ler 10 números e armazenar em um vetor. Após isto, o algoritmo deve 
 ordenar os números no vetor em ordem crescente. Escrever o vetor ordenado.
 
-87) O mesmo exercício anterior, mas depois de ordenar os elementos do vetor em ordem crescente, 
+88) O mesmo exercício anterior, mas depois de ordenar os elementos do vetor em ordem crescente, 
 deve ser lido mais um número qualquer e inserir esse novo número na posição correta, ou seja, 
 mantendo a ordem crescente do vetor.
 
-88) Faça um algoritmo para ler um vetor de 20 números. Após isto, deverá ser lido mais um número 
+89) Faça um algoritmo para ler um vetor de 20 números. Após isto, deverá ser lido mais um número 
 qualquer e verificar se esse número existe no vetor ou não. Se existir, o algoritmo deve gerar um novo 
 vetor sem esse número. (Considere que não haverão números repetidos no vetor).
 <table>

@@ -188,7 +188,9 @@ f)
     </tr>
 </table>
 
-77)
+77) Dado o seguinte vetor: 
+V 5 1 4 2 7 8 3 6 
+Qual será o conteúdo do vetor V depois de executado o algoritmo abaixo? 
 ![image](https://github.com/alimkhodr/LP1-ALI_MOHAMED/assets/85517447/b5f9de44-959e-46b0-be2d-f017d7922a33)
 
 

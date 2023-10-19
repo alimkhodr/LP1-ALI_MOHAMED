@@ -196,40 +196,42 @@ f)
 78) Escreva um algoritmo que permita a leitura dos nomes de 10 pessoas e armaze os nomes lidos em 
 um vetor. Após isto, o algoritmo deve permitir a leitura de mais 1 nome qualquer de pessoa e depois 
 escrever a mensagem ACHEI, se o nome estiver entre os 10 nomes lidos anteriormente (guardados no 
-vetor), ou NÃO ACHEI caso contrário. 
+vetor), ou NÃO ACHEI caso contrário.
+![image](https://github.com/alimkhodr/LP1-ALI_MOHAMED/assets/85517447/b62c352f-bd42-4d1a-8fd9-4ae9671cb164)
 
-79) Escreva um algoritmo que permita a leitura das notas de uma turma de 20 alunos. Calcular a média 
+
+80) Escreva um algoritmo que permita a leitura das notas de uma turma de 20 alunos. Calcular a média 
 da turma e contar quantos alunos obtiveram nota acima desta média calculada. Escrever a média da 
 turma e o resultado da contagem.
 
-80) Ler um vetor Q de 20 posições (aceitar somente números positivos). Escrever a seguir o valor do 
+81) Ler um vetor Q de 20 posições (aceitar somente números positivos). Escrever a seguir o valor do 
 maior elemento de Q e a respectiva posição que ele ocupa no vetor.
 
-81) O mesmo exercício anterior, mas agora deve escrever o menor elemento do vetor e a respectiva 
+82) O mesmo exercício anterior, mas agora deve escrever o menor elemento do vetor e a respectiva 
 posição dele nesse vetor.
 
-82) Ler um vetor A de 10 números. Após, ler mais um número e guardar em uma variável X. 
+83) Ler um vetor A de 10 números. Após, ler mais um número e guardar em uma variável X. 
 Armazenar em um vetor M o resultado de cada elemento de A multiplicado pelo valor X. Logo após, 
 imprimir o vetor M.
 
-83) Faça um algoritmo para ler 20 números e armazenar em um vetor. Após a leitura total dos 20 
+84) Faça um algoritmo para ler 20 números e armazenar em um vetor. Após a leitura total dos 20 
 números, o algoritmo deve escrever esses 20 números lidos na ordem inversa.
 
-84) Faça um algoritmo para ler um valor N qualquer (que será o tamanho dos vetores). Após, ler dois 
+85) Faça um algoritmo para ler um valor N qualquer (que será o tamanho dos vetores). Após, ler dois 
 vetores A e B (de tamanho N cada um) e depois armazenar em um terceiro vetor Soma a soma dos 
 elementos do vetor A com os do vetor B (respeitando as mesmas posições) e escrever o vetor Soma.
 
-85) Faça um algoritmo para ler e armazenar em um vetor a temperatura média de todos os dias do ano. 
+86) Faça um algoritmo para ler e armazenar em um vetor a temperatura média de todos os dias do ano. 
 Calcular e escrever: 
 
-86) Faça um algoritmo para ler 10 números e armazenar em um vetor. Após isto, o algoritmo deve 
+87) Faça um algoritmo para ler 10 números e armazenar em um vetor. Após isto, o algoritmo deve 
 ordenar os números no vetor em ordem crescente. Escrever o vetor ordenado.
 
-87) O mesmo exercício anterior, mas depois de ordenar os elementos do vetor em ordem crescente, 
+88) O mesmo exercício anterior, mas depois de ordenar os elementos do vetor em ordem crescente, 
 deve ser lido mais um número qualquer e inserir esse novo número na posição correta, ou seja, 
 mantendo a ordem crescente do vetor.
 
-88) Faça um algoritmo para ler um vetor de 20 números. Após isto, deverá ser lido mais um número 
+89) Faça um algoritmo para ler um vetor de 20 números. Após isto, deverá ser lido mais um número 
 qualquer e verificar se esse número existe no vetor ou não. Se existir, o algoritmo deve gerar um novo 
 vetor sem esse número. (Considere que não haverão números repetidos no vetor).
 <table>

@@ -214,6 +214,8 @@ maior elemento de Q e a respectiva posição que ele ocupa no vetor.
 
 81) O mesmo exercício anterior, mas agora deve escrever o menor elemento do vetor e a respectiva 
 posição dele nesse vetor.
+![image](https://github.com/alimkhodr/LP1-ALI_MOHAMED/assets/85517447/782be2d8-5c0d-40bf-98c1-7bcfcd8602ef)
+
 
 82) Ler um vetor A de 10 números. Após, ler mais um número e guardar em uma variável X. 
 Armazenar em um vetor M o resultado de cada elemento de A multiplicado pelo valor X. Logo após, 

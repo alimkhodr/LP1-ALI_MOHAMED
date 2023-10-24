@@ -6,24 +6,24 @@ public class Ex {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println("\n\nEscolha um exercício para executar:");
-            System.out.println("71");
-            System.out.println("72");
-            System.out.println("73");
-            System.out.println("78");
-            System.out.println("79");
-            System.out.println("80");
-            System.out.println("81");
-            System.out.println("82");
-            System.out.println("83");
-            System.out.println("84");
-            System.out.println("85");
-            System.out.println("86");
-            System.out.println("87");
-            System.out.println("88");
-            System.out.println("89");
-            System.out.println("90");
-            System.out.println("91");
-            System.out.println("0. Sair");
+            System.out.print("|71");
+            System.out.print("|72");
+            System.out.print("|77");
+            System.out.print("|78");
+            System.out.print("|79");
+            System.out.print("|80");
+            System.out.print("|81");
+            System.out.print("|82");
+            System.out.print("|83");
+            System.out.print("|84");
+            System.out.print("|85");
+            System.out.print("|86");
+            System.out.print("|87");
+            System.out.print("|88");
+            System.out.print("|89");
+            System.out.print("|90");
+            System.out.print("|91");
+            System.out.println("|0. Sair|");
             System.out.print("-> ");
 
             int choice = scanner.nextInt();
@@ -34,7 +34,7 @@ public class Ex {
                 case 72:
                     Ex72(scanner);
                     break;
-                case 73:
+                case 77:
                     Ex77(scanner);
                     break;
                 case 78:
